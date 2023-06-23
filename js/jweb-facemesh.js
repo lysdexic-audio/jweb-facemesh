@@ -178,8 +178,6 @@
     }
   
     const output = {};
-
-    console.log(JSON.stringify(results));
   
     if (results.faceLandmarks) {
       let face_index = 0;
@@ -255,7 +253,7 @@
       modelAssetPath: `https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/float16/1/face_landmarker.task`,
       delegate: "GPU"
     },
-    outputFaceBlendshapes: true,
+    outputFaceBlendshapes: false,
     runningMode,
     numFaces: 2
   });
