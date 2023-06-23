@@ -98,6 +98,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-7",
+					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -311,7 +312,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-16",
-					"items" : [ "Logitech BRIO (046d:085e)", ",", "FaceTime HD Camera" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -633,8 +634,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 101.0, 181.0, 22.0 ],
-									"text" : "dict.unpack RIGHT_EYEBROW:"
+									"patching_rect" : [ 50.0, 101.0, 102.0, 22.0 ],
+									"text" : "dict.unpack LIPS:"
 								}
 
 							}
@@ -878,8 +879,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 101.0, 173.0, 22.0 ],
-									"text" : "dict.unpack LEFT_EYEBROW:"
+									"patching_rect" : [ 50.0, 101.0, 145.0, 22.0 ],
+									"text" : "dict.unpack FACE_OVAL:"
 								}
 
 							}
